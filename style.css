@@ -1,0 +1,40 @@
+/* Use a Google font for the body text */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center; /* Center the buttons */
+}
+
+/* Center the video and give it a border */
+#video {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #333;
+}
+
+/* Style the "Take Picture" and "Save Picture" buttons */
+#take-picture,
+#save-picture {
+    background-color: #b092e0;
+    border: none;
+    border-radius: 5px;
+    color: #0c0c0c;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Make the button background darker when hovered over */
+#take-picture:hover,
+#save-picture:hover {
+    background-color: #b092e0;
+}
+
+/* Hide the canvas element */
+#canvas {
+    display: none;
+}
